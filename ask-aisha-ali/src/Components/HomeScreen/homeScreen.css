@@ -1,0 +1,42 @@
+.botChat{
+    background-color: #f8bfce3d;
+}
+
+.chat-wrapper{
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    width: 90%;
+    margin: auto;
+}
+
+.heading{
+    font-family: "Mochiy Pop One", serif;
+}
+
+.subHeading{
+    font-family: "Roboto", sans-serif;
+    font-weight: 400;
+}
+
+/* .chat-text{
+   
+    font-weight: 100;
+    font-family: "Mochiy Pop One", serif; 
+} */
+
+.chatbtn{
+    margin-top: 1rem;
+    margin-right: 14px;
+    cursor: pointer;
+    padding: 6px 20px;
+    font-size: 14px;
+    font-weight: 600;
+    border: #641429 solid 2px;
+}
+
+.blurred {
+    filter: blur(5px); /* ✅ Apply blur effect when popup appears */
+    pointer-events: none; /* ✅ Prevent interaction while blurred */
+    user-select: none;
+}

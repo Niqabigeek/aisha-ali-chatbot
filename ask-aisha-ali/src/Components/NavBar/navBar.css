@@ -1,0 +1,28 @@
+header{
+  position: fixed;  
+  top: 0;           /* Sticks to the very top */
+  left: 0;
+  width: 100%; 
+  background-color: #f5f5f5;
+  padding: 1rem 0;
+}
+
+.nav-container{
+  
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 90%;
+  margin: auto;
+}
+
+
+.nav-buttons button{
+  margin-left: 14px;
+  background-color: #FF4073;
+  font-family: "Mochiy Pop One", serif;
+  padding: 9px;
+  font-size: 14px;
+  color: #ffffff;
+  border: #641429 solid 2px
+}
